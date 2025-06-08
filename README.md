@@ -1,22 +1,19 @@
 
 > Open this page at [https://laasax.github.io/programme-spirob/](https://laasax.github.io/programme-spirob/)
 
-## Use as Extension
+## Pré-requis
 
-This repository can be added as an **extension** in MakeCode.
+Installer les librairies suivantes:
+* Radio
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/laasax/programme-spirob** and import
+## 1.Pins utilisés
 
-## Edit this project
-
-To edit this repository in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/laasax/programme-spirob** and click import
+* P0	: Controle Moteur 1
+* P1	: Feedback Moteur 1
+* P2	: Feedback Moteur 2
+* P3	: Mesure intensité Moteur 1
+* P8	: Controle Moteur 2
+* P10	: Mesure intensité Moteur 2
 
 #### Metadata (used for search, rendering)
 
