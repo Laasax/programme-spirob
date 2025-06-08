@@ -15,7 +15,4 @@ Installer les librairies suivantes:
 * P8	: Controle Moteur 2
 * P10	: Mesure intensité Moteur 2
 
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+## Description de la librairie Spirobs
