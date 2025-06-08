@@ -1,0 +1,9 @@
+Manufacturer=Adafruit
+PartNumber=3342
+PartCategory=Connector
+PackageCategory=Other
+PinCount=80
+Version=1.2
+Released=2018-01-05 14:51:19
+Downloaded=2025-04-21 11:50:37
+3D=N

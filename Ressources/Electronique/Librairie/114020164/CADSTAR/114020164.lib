@@ -1,0 +1,17 @@
+.114020164 :1 ;Seeed Studio Accessories Grove Female Header - SMD-4P-2.0mm-90D-20Pcs
+"114020164"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=MP1 6=MP2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="MP1" 6="MP2"
+*MXP 6
+*DFN 114020164
+~!Mouser Part Number (713-114020164)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Seeed-Studio/114020164?qs=7MVldsJ5Uayw%2FOfizq4F8w%3D%3D)
+~!Manufacturer_Name (Seeed Studio)
+~!Manufacturer_Part_Number (114020164)
+~!Link Datasheet (https://files.seeedstudio.com/products/114020164/res/Grove%20Female%20Header%20-%20SMD-4P-2.0mm-90D%20Datasheet.pdf)
+~!Height (5.45mm)
+~!3D_Model (114020164)
+"114020164"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 
