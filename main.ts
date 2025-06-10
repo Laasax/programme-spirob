@@ -17,7 +17,7 @@ input.onButtonPressed(Button.B, function () {
     pins.servoWritePin(AnalogPin.P8, 90)
 })
 function position_tentacule (degres: number) {
-    off_set_moteurs = 20
+    off_set_moteurs = 15
     if (degres >= 90) {
         pins.servoWritePin(AnalogPin.P0, degres - off_set_moteurs)
         pins.servoWritePin(AnalogPin.P8, degres)
@@ -33,5 +33,5 @@ let off_set_moteurs = 0
 pins.servoWritePin(AnalogPin.P0, 90)
 pins.servoWritePin(AnalogPin.P8, 90)
 basic.forever(function () {
-    protection_moteurs()
+	
 })
