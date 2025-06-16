@@ -16,6 +16,18 @@ input.onButtonPressed(Button.B, function () {
     pins.servoWritePin(AnalogPin.P0, 90)
     pins.servoWritePin(AnalogPin.P8, 90)
 })
+radio.onReceivedValue(function (name, value) {
+    if (name == "roll") {
+        roll = 0
+    }
+    roll = value / 50 * 180
+    if (roll >= 180) {
+        roll += 180
+    } else if (roll <= -180) {
+        roll += -180
+    }
+    position_tentacule(roll)
+})
 function position_tentacule (degres: number) {
     off_set_moteurs = 15
     if (degres >= 90) {
@@ -30,8 +42,10 @@ function position_tentacule (degres: number) {
     }
 }
 let off_set_moteurs = 0
+let roll = 0
 pins.servoWritePin(AnalogPin.P0, 90)
 pins.servoWritePin(AnalogPin.P8, 90)
+radio.setGroup(1)
 basic.forever(function () {
 	
 })
