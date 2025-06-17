@@ -13,14 +13,13 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(2000)
 })
 input.onButtonPressed(Button.B, function () {
-    pins.servoWritePin(AnalogPin.P0, 90)
-    pins.servoWritePin(AnalogPin.P8, 90)
+    position_tentacule(90)
 })
 radio.onReceivedValue(function (name, value) {
     serial.writeLine("" + (value))
     if (true) {
         if (name == "roll") {
-            roll = value / 50 * 180
+            roll = Math.map(value, -80, 80, 0, 180)
             if (roll >= 180) {
                 roll += 180
             } else if (roll <= -180) {
@@ -31,7 +30,7 @@ radio.onReceivedValue(function (name, value) {
     }
 })
 function position_tentacule (degres: number) {
-    off_set_moteurs = 15
+    off_set_moteurs = 0
     if (degres >= 90) {
         pins.servoWritePin(AnalogPin.P0, degres - off_set_moteurs)
         pins.servoWritePin(AnalogPin.P8, degres)
