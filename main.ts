@@ -30,19 +30,9 @@ radio.onReceivedValue(function (name, value) {
     }
 })
 function position_tentacule (degres: number) {
-    off_set_moteurs = 0
-    if (degres >= 90) {
-        pins.servoWritePin(AnalogPin.P0, degres - off_set_moteurs)
-        pins.servoWritePin(AnalogPin.P8, degres)
-    } else if (degres <= 85) {
-        pins.servoWritePin(AnalogPin.P0, degres)
-        pins.servoWritePin(AnalogPin.P8, degres + off_set_moteurs)
-    } else {
-        pins.servoWritePin(AnalogPin.P0, degres)
-        pins.servoWritePin(AnalogPin.P8, degres)
-    }
+    pins.servoWritePin(AnalogPin.P0, degres)
+    pins.servoWritePin(AnalogPin.P8, degres)
 }
-let off_set_moteurs = 0
 let roll = 0
 pins.servoWritePin(AnalogPin.P0, 90)
 pins.servoWritePin(AnalogPin.P8, 90)
