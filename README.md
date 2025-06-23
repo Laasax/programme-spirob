@@ -38,22 +38,35 @@ Voici l'ensemble des pins utilisés par rapport à la carte électronique conçu
 
 # 4. Description du dépot Github
 
-Ce dépot Github comporte principalement la partie programation sur Makecode de la tentacule.
+Ce dépot Github comporte principalement la partie programmation sur Makecode de la tentacule.
 
 ## 4.1 Dossier Ressources
 
-Ce dossier possède tout les plans et schémas pour réaliser le Spirob
+Ce dossier possède tous les plans et schémas pour réaliser le Spirob.
 * Electronique:
-Le schéma électronique est fait avec le logiciel Proteus, un gerber est fournie pour refaire des cartes
+Le schéma électronique est fait avec le logiciel Proteus, un gerber est fournie pour refaire des cartes.
 * CAO 3D:
-La réalisation 3D est faite avec le logiciel Solidworks, tous les fichiers STL sont fournies pour pouvoir les imprimers (boitier, tentacule...)
+La réalisation 3D est faite avec le logiciel Solidworks, tous les fichiers STL sont fournies pour pouvoir les imprimer (boitier, tentacule...)
 
 ## 4.2 Dossier Images
 
-Ce dossier permet de répertorier les captures d'écran / photo lié au projet, permettant de le contectualiser.
+Ce dossier permet de répertorier les captures d'écran / photo liés au projet, permettant de le contextualiser.
 
 # 5. Fonctionnement du programme
+
 ## 5.1 Importer le programme 
+
+### 5.1.1 Carte émettrice
+Pour la carte émettrice, la librairie Radio doit être importée.
+Dans ce programme, il faut prendre la fonction Radio Set Group, la mettre dans la boucle Setup, il faut ensuite, dans la boucle infini, envoyé l'orientation "roll" toutes les 50ms sur la communication radio.
+
+![alt text](https://github.com/Laasax/programme-spirob/blob/master/Images/emission.png?raw=true)
+
+### 5.1.2 Carte réceptrice
+Pour la carte réceptrice, il faut importer le dépot Git depuis le bouton extension, puis coller le lien Git.
 
 ![alt text](https://github.com/Laasax/programme-spirob/blob/master/Images/importation_du_programme.png?raw=true)
 
+## 5.2 Fonctionnement
+Afin de faire fonctionner le Spirob, il faut alimenter les 2 cartes MicroBit et alimenter la carte des servomoteurs.
+Lorsque tout est alimenté, il suffit d'orienter de gauche à droite pour apprécier les mouvements de la tentacule.
