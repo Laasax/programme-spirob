@@ -1,6 +1,7 @@
 
 > Open this page at [https://laasax.github.io/programme-spirob/](https://laasax.github.io/programme-spirob/)
 
+# Spirob - TUS - Tentacule Ultra Sophistiqué
 ## 1.1. Descriptif du projet
 Le projet est à l’initiative d’un professeur de technologie du collège Les Hautes Ourmes de Rennes.
 Il s'agit de la conception et du développement d'un tentacule biomimétique, s'inspirant des propriétés d'un tentacule de poulpe ou d'une trompe d'éléphant. Cette approche repose sur le mimétisme, une stratégie qui consiste à s'inspirer du fonctionnement des êtres vivants pour concevoir une nouvelle solution de bras robotique.
@@ -19,12 +20,12 @@ Pour réaliser ce projet, la composition de ce groupe sera composée de :
 * Hugo Colombel
 * Alexandre Bloino
 
-## 2. Pré-requis
+# 2. Pré-requis
 
 Installer les librairies suivantes:
 * Radio
 
-## 3. Pins utilisés
+# 3. Pins utilisés
 
 Voici l'ensemble des pins utilisés par rapport à la carte électronique conçu pour ce projet.
 
@@ -35,11 +36,11 @@ Voici l'ensemble des pins utilisés par rapport à la carte électronique conçu
 * P8	: Controle Moteur 2
 * P10	: Mesure intensité Moteur 2
 
-## 4. Description de la librairie Spirobs
+# 4. Description de la librairie Spirobs
 
 
-## 5. Fonctionnement du programme
-# 1. Importer le programme 
+# 5. Fonctionnement du programme
+## 1. Importer le programme 
 
 ![alt text](https://github.com/Laasax/programme-spirob/blob/master/Images/importation_du_programme.png?raw=true)
 
