@@ -37,3 +37,9 @@ Voici l'ensemble des pins utilisés par rapport à la carte électronique conçu
 
 ## 4. Description de la librairie Spirobs
 
+
+## 5. Fonctionnement du programme
+# 1. Importer le programme 
+
+![alt text](https://github.com/Laasax/programme-spirob/Images/importation_du_programme.png?raw=true)
+
