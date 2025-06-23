@@ -36,11 +36,24 @@ Voici l'ensemble des pins utilisés par rapport à la carte électronique conçu
 * P8	: Controle Moteur 2
 * P10	: Mesure intensité Moteur 2
 
-# 4. Description de la librairie Spirobs
+# 4. Description du dépot Github
 
+Ce dépot Github comporte principalement la partie programation sur Makecode de la tentacule.
+
+## 4.1 Dossier Ressources
+
+Ce dossier possède tout les plans et schémas pour réaliser le Spirob
+* Electronique:
+Le schéma électronique est fait avec le logiciel Proteus, un gerber est fournie pour refaire des cartes
+* CAO 3D:
+La réalisation 3D est faite avec le logiciel Solidworks, tous les fichiers STL sont fournies pour pouvoir les imprimers (boitier, tentacule...)
+
+## 4.2 Dossier Images
+
+Ce dossier permet de répertorier les captures d'écran / photo lié au projet, permettant de le contectualiser.
 
 # 5. Fonctionnement du programme
-## 1. Importer le programme 
+## 5.1 Importer le programme 
 
 ![alt text](https://github.com/Laasax/programme-spirob/blob/master/Images/importation_du_programme.png?raw=true)
 
